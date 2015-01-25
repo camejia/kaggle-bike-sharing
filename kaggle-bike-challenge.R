@@ -5,7 +5,7 @@
 #  @nameBrandon
 #--------------------------------------------------------
 
-setwd("/users/Brandon/Dropbox/Kaggle/Bike Sharing/")
+setwd("~/GitHub/forks/namebrandon/kaggle-bike-sharing")
 #read in train/test
 
 train <- read.csv("train.csv")
@@ -83,7 +83,7 @@ train_factor$hour <- as.factor(train_factor$hour)
 test_factor$hour <- as.factor(test_factor$hour)
 
 #install party package
-install.packages('party')
+#install.packages('party')
 library('party')
 
 #build our formula
